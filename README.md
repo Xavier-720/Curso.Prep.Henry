@@ -1,49 +1,67 @@
-<img  src='./logo.png' height='70px'>
+# Curso de Preparación · Henry
 
-## Introducción
+Repositorio de materias, ejemplos y homework del módulo de preparación (Prep) de Henry. Está organizado por unidades, con consignas, material de apoyo y tests ejecutables por homework.
 
-# Modulo 0 - Prep
+<img src="./logo.png" height="70" alt="Henry" />
 
-* [00 - Primeros Pasos](./00-PrimerosPasos)
-* [01 - Git](./01-Git)
-* [02 - I - Introducción a Javascript: Variables, tipos de datos y funciones](./02-JS-I)
-* [03 - II- Flujos de control, operadores de comparación, bucles for](./03-JS-II)
-* [04 - III - continuación de bucles for y Arrays](./04-JS-III)
-* [05 - IV - Objetos](./05-JS-IV)
-* [06 - V - Clases y prototype](./06-JS-V)
-* [07 - VI - Callbacks](./07-JS-VI)
-* [08 - HTML](./08-HTML)
-* [09 - CSS](./09-CSS-Positioning)
-* Henry Challenge => [Inscribite acá para rendir](https://challenge.prep.soyhenry.com/)
+## Contenido
 
-## Conceptos:
+- [Módulos](#módulos)
+- [Conceptos](#conceptos)
+- [Clases de repaso](#clases-de-repaso)
+- [Homeworks y tests](#homeworks-y-tests)
+- [La carrera](#la-carrera)
 
-* [Expressions vs Statements](./JS-conceptos/Statements-Expressions/)
+## Módulos
 
-## Clases de Repaso (Henry Heroes)
+| # | Unidad | Contenido |
+| :-: | --- | --- |
+| 00 | [Primeros pasos](./00-PrimerosPasos) | Herramientas, editor, terminal y configuración inicial |
+| 01 | [Git](./01-Git) | Repositorios, estados, snapshots y GitHub |
+| 02 | [JS I](./02-JS-I) | Variables, tipos de datos y funciones |
+| 03 | [JS II](./03-JS-II) | Flujos de control, operadores de comparación y bucles `for` |
+| 04 | [JS III](./04-JS-III) | Bucles `for` y arrays |
+| 05 | [JS IV](./05-JS-IV) | Objetos |
+| 06 | [JS V](./06-JS-V) | Clases y prototype |
+| 07 | [JS VI](./07-JS-VI) | Callbacks |
+| 08 | [HTML](./08-HTML) | Estructura y box model |
+| 09 | [CSS Positioning](./09-CSS-Positioning) | Posicionamiento y layout |
 
-Estudiantes mas avanzados de la carrera resuelven los ejercicios en vivo en formato webinar.
-[Acá podes](https://docs.google.com/spreadsheets/d/e/2PACX-1vQwV-pEgWuxqI1B3pdVI0lbeqPB0a6LHPk6-DQlifDdX9Rue_Ul4YTOxoOg-hhofv6U0f32OoXOU2Wf/pubhtml) ver el calendario de las clases y las grabaciones.
+¿Querés rendir el challenge? [Inscribite acá](https://challenge.prep.soyhenry.com/).
 
-## Homeworks
+## Conceptos
 
-__IMPORTANTE:__ Para ejecutar los tests de cada homework tenes que pararte en la carpeta donde clonaste tu repo (es decir la carpeta donde está este `README.md`) y ejecutar el siguiente comando:
+- [Expressions vs Statements](./JS-conceptos/Statements-Expressions/)
 
-`npm install`
+## Clases de repaso
 
-Esto instalará todas las dependencias necesarias (lo tenés que hacer una sóla vez), una vez terminado y cada vez que quieras ver cuantos tests pasaste ejecutá:
+Estudiantes más avanzados de la carrera resuelven los ejercicios en vivo en formato webinar. [Acá podés ver](https://docs.google.com/spreadsheets/d/e/2PACX-1vQwV-pEgWuxqI1B3pdVI0lbeqPB0a6LHPk6-DQlifDdX9Rue_Ul4YTOxoOg-hhofv6U0f32OoXOU2Wf/pubhtml) el calendario y las grabaciones.
 
+## Homeworks y tests
+
+Para ejecutar los tests, parate en la raíz del repositorio (donde está este `README.md`) e instalá las dependencias una sola vez:
+
+```bash
+npm install
 ```
-npm test {nombre del homework}.test.js
+
+Después, cada vez que quieras ver cuántos tests pasaste:
+
+```bash
+npm test {nombre-del-homework}.test.js
 ```
 
-Por ejemplo, para ejecutar los tests del homework 02, ejecutar: `npm test JSII.test.js`
-el del homework 01: `npm test JSI.test.js`
-y así.
+Ejemplos:
 
-> No todos los homeworks tiene tests, está detallado en la descripción de cada uno.
+```bash
+npm test JSII.test.js   # homework 02
+npm test JSI.test.js    # homework 01
+```
 
-# La Carrera
+No todos los homeworks tienen tests; está detallado en la descripción de cada uno.
 
-Si querés saber más sobre la carrera, mirá este video:
+## La carrera
+
+Si querés saber más sobre el programa, mirá este video:
+
 <iframe src="https://player.vimeo.com/video/426051769" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
